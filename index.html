@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPS-Multiplayer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:900" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://www.gstatic.com/firebasejs/live/3.0/firebase.js">
+	<link rel="icon" href="http://static1.squarespace.com/static/569f664a841abaccb7cb0241/t/58d1e9b5b3db2b27db5333d3/1490151862166/favicon.png?format=1000w">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+   	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-1"></div>
+			<div class="col-lg-7">
+				<div id="gif-output">
+					<ul id="gif-list"></ul>
+				</div>
+			</div>
+			
+			<div class="col-lg-3">
+				<div id="sidebar">   
+					<h4>What kind of GIFs do you want?</h4>
+					<form id="gif-form">
+						<input id="gif-entry" type="text"/>
+						<button id="gif-submit" type="submit">SUBMIT</button>
+						<button id="gif-clear" type="clear">CLEAR</button>
+						<button id="gif-add" type="add">ADD</button>
+					</form>
+					
+					<div id="gif-buttons">
+						<div id="gif-button-group"></div>
+					</div>
+				</div>
+			</div>
+		<div class="col-lg-1"></div>
+	</div>
+	
+
+
+	<footer class="footer">
+		<div class="two-toned-footer-color"></div>
+		<p class="text-muted-footer text-muted text-center">&copy; Copyright 2017 - Andrew Kelley</p>
+	</footer>
+
+	<script type="text/javascript" src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
