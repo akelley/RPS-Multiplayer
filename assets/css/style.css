@@ -1,5 +1,90 @@
 body {
-	background-color: #FFF8DC;
-	overflow: hidden;
+	background-color: MediumSeaGreen;
+    /*font-family: 'UnifrakturCook', cursive;
+    font-family: 'Nosifer', cursive;
+    font-family: 'Ceviche One', cursive;*/
+}
+
+.jumbotron {
+	padding: 5px 0 10px 0;
+	margin: 0px 0 0px 0;
+	font-family: 'Nosifer', cursive;
+	background-color: SeaGreen;
+}
+
+.footer {
+	margin: 20px 0 0 0;
+	position: fixed;
+	bottom: 0;
+	left: 43%;
+}
+
+.text-muted-footer {
+	color: black;
+}
+
+.player1-area, .middle-area, .player2-area, .chat-area {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.player1-area, .middle-area, .player2-area {
+	height: 300px;
+	width: auto;
+}
+
+.name-div {
+	position: relative;
+	left: 35%;
+	margin: 20px 0 20px 0;
+	padding: 0;
+}
+
+.chat-div {
+	margin: 20px 0 0 0 ;
+	position: relative;
+	left: 20%;
+}
+
+.chat-area {
+	height: 150px;
+	width: 700px;
+}
+
+#chat-form {
+	margin: 10px 0 0 0;
+	position: relative;
+	left: 4%;
+}
+
+#title {
+	margin: 10px 0 0 0;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#score {
+	margin: 60px 0 0 0;
+	text-align: center;
+}
+
+h3 {
+	text-align:center;
+	margin: 10px 0 40px 0;
+	font-weight: bolder;
+	padding: 0;
+}
+
+h4 {
+	text-align:center;
+	position: relative;
+	left: 30%;
+	margin: 15px 0;
+	padding: 5px 0;
+	width: 140px;
+	border: 2px solid black;
+	background-color: silver;
+	cursor: pointer;
 }
 
