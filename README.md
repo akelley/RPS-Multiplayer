@@ -2,4 +2,4 @@
 
 Please find the application deployed here:
 
-[https://multiplayer-rps-9d62f.firebaseapp.com](https://multiplayer-rps-9d62f.firebaseapp.com)
+[https://rps-multiplayer-872b5.firebaseapp.com/](https://rps-multiplayer-872b5.firebaseapp.com/)
