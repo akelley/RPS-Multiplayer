@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPS - Multiplayer</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+	<script src="./js/config.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ceviche+One|Nosifer|UnifrakturCook:700" rel="stylesheet"> 	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+   	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h2 class="text-center">ROCK, PAPER, SCISSORS</h2>
+		</div>
+
+		<div class="row" id="top">			
+			<div class="name-div">
+				<form id="name-form">
+					<input id="name-entry" type="text" size="40" placeholder="Name" />
+					<button id="name-submit" type="submit">START</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="panel panel-default playerPanel" id="playerPanel1">
+					<div class="player1-area">
+						<h3 id="name1"></h3>
+			      <div class="panel-body panelOption text-center">
+	          	<div class="option">Rock</div>
+	          </div>
+
+	          <div class="panel-body panelOption text-center">
+	          	<div class="option">Paper</div>
+	          </div>
+
+	          <div class="panel-body panelOption text-center">
+	          	<div class="option">Scissors</div>
+	          </div>
+
+	          <div class="panel-body panelStats text-center">
+	          	<div class="stats" id="stats1"></div>
+	          </div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-4">
+				<div class="middle-area">
+            <div class="gamePanel">
+            	<h3 class="text-center" id="notice"></h3>
+            	<h2 class="text-center" id="outcome"></h2>
+            </div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="panel panel-default playerPanel" id="playerPanel2">
+					<div class="player2-area">
+						<h3 id="name2"></h3>
+						<div class="panel-body panelOption text-center">
+	          	<div class="option">Rock</div>
+	          </div>
+
+	          <div class="panel-body panelOption text-center">
+	          	<div class="option">Paper</div>
+	          </div>
+
+	          <div class="panel-body panelOption text-center">
+	          	<div class="option">Scissors</div>
+	          </div>
+
+	          <div class="panel-body panelStats text-center">
+	          	<div class="stats" id="stats2"></div>
+	          </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">			
+			<div class="chat-area"></div>
+
+			<form id="chat-form">
+				<input id="chat-entry" type="text" size="80"/>
+				<button id="chat-submit" type="submit">SEND</button>
+			</form>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="two-toned-footer-color"></div>
+		<p class="text-muted-footer text-muted text-center">&copy; Copyright 2017 - Andrew Kelley</p>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="./js/app.js"></script>
+</body>
+</html>

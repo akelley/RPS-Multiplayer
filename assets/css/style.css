@@ -1,8 +1,5 @@
 body {
 	background-color: MediumSeaGreen;
-    /*font-family: 'UnifrakturCook', cursive;
-    font-family: 'Nosifer', cursive;
-    font-family: 'Ceviche One', cursive;*/
 }
 
 .jumbotron {
@@ -23,7 +20,14 @@ body {
 	color: black;
 }
 
-.player1-area, .middle-area, .player2-area, .chat-area {
+.middle-area{
+	background-image: url("http://cdn-images.threadless.com/threadless-shop/products/6181/1272x920design_01.jpg");
+	background-size: contain;
+	border: 3px dashed Chocolate;
+	border-radius: 5px;
+}
+
+.player1-area, .player2-area, .chat-area {
 	background-color: white;
 	border: 1px solid black;
 	border-radius: 5px;
@@ -41,50 +45,87 @@ body {
 	padding: 0;
 }
 
-.chat-div {
-	margin: 20px 0 0 0 ;
-	position: relative;
-	left: 20%;
-}
-
 .chat-area {
+	position: relative;
+	overflow: auto;
+	left: 20%;
 	height: 150px;
 	width: 700px;
 }
 
 #chat-form {
-	margin: 10px 0 0 0;
+	margin: 15px 0 0 0;
 	position: relative;
-	left: 4%;
-}
-
-#title {
-	margin: 10px 0 0 0;
-	font-size: 1.5em;
-	font-weight: 700;
-}
-
-#score {
-	margin: 60px 0 0 0;
-	text-align: center;
+	left: 25%;
 }
 
 h3 {
-	text-align:center;
-	margin: 10px 0 40px 0;
+	text-align: center;
+	margin: 20px 0 30px 0;
 	font-weight: bolder;
 	padding: 0;
 }
 
-h4 {
-	text-align:center;
-	position: relative;
-	left: 30%;
-	margin: 15px 0;
-	padding: 5px 0;
-	width: 140px;
+.playerPanel {
 	border: 2px solid black;
-	background-color: silver;
+	border-radius: 10px;
+}
+
+.playerPanelTurn {
+	border: 5px solid yellow;
+}
+
+.playerPanel .panelName {
+	height: 55px;
+	background-color: #cdd9ea;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.playerPanel .panelName h3 {
+	font-size: 2em;
+	margin: 0.25em 0em 0em 0em;
+}
+
+.playerPanel .panelOption {
+	height: 50px;
+	background-color: DarkSeaGreen;
+	text-align: center;
+	font-size: 1.5em;
+	color: #084596;
+	border: 1px dashed black;
+	border-radius: 50px;
+	margin: 5px 20px;
 	cursor: pointer;
 }
 
+.playerPanel .panelOption .option {
+	margin: -0.2em 0em 0em 0em;
+}
+
+.playerPanel .panelOption:hover {
+	background-color: PaleTurquoise;
+}
+
+.playerPanel .panelOption:active {
+  background-color: red;
+}
+
+.playerPanel .panelStats {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #084596;
+}
+
+h3#notice{
+	font-style: italic;
+}
+
+h2#outcome{
+	font-weight: bolder;
+	margin-top: 195px;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
