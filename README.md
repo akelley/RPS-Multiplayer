@@ -1,4 +1,5 @@
 # RPS-Multiplayer
+Online, multi-player Rock-Paper-Scissors game utilizing Firebase, jQuery & Bootstrap.
 
 Please find the application deployed here:
 
